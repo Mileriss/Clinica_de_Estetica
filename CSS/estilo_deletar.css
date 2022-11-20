@@ -1,0 +1,16 @@
+body{
+    background-image: url(../papel_de_parede/Clínica_Você_Dev+.png);
+    background-size: 100%;
+    color:black;
+}
+
+.cor-btn{
+    background-color: lightcoral;
+    color: black;
+    width: 10em;
+}
+
+.edicao-paragrafo{
+    color: black;
+    font-size: 1.5em;
+}

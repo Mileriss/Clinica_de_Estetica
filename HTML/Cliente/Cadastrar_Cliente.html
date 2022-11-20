@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="/CSS/estilo_cadastro.css">
+  
+
+    <title> Cadastrar Cliente</title>
+</head>
+<body>
+  <a href="../Menu.html"> <b>Menu</b></a>
+    <h1> Cadastrar Cliente </h1>
+  <fieldset>
+    <legend align="center">Novo Cliente</legend>
+    <form>
+        <div>
+          <p class="edicao-paragrafo">Digite as informações do novo cliente</p>
+          <label for="html"><b>E-mail:</b></label>
+          <input id="email" type="text" class="form-control" name="email" placeholder="Digite o e-mail desejado...">
+        </div>
+        <br>
+        <div>
+          <label for="html"><b>Nome:</b></label>
+          <input id="msg" type="text" class="form-control" name="msg" placeholder="Digite o nome desejado...">
+        </div>
+        <br>
+        <div>
+          <label for="html"><b>Sobrenome:</b></label>
+          <input id="msg" type="text" class="form-control" name="msg" placeholder="Digite o sobrenome desejado...">
+        </div>
+        <br>
+        <div>
+          <label for="html"><b>Sexo:</b></label>
+          <input type="radio" name="sexo">Masculino
+          <input type="radio" name="sexo">Feminino
+          <input type="radio" name="sexo">Outro
+        </div>
+        <br>
+        <div>
+          <label for="html"><b>CPF:</b></label>
+          <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+		      <button class="cor-btn" type="submit"><b>Verificar</b></button>
+        </div>
+        <br>
+        <div>
+          <label for="html"><b>Data de nascimento:</b></label>
+          <input id="data-toggle" type="date" class="form-control" name="data-target" placeholder="Data de Nascimento...">
+        </div>
+        <br>
+        <div>
+          <label for="html"><b>Endereço:</b></label>
+          <input id="msg" type="text" class="form-control" name="msg" placeholder="Endereço.." title="Rua, Nº, Bairro e Cidade">
+        </div>
+        <br>
+        <div>
+          <label for="html"><b>Celular/Telefone:</b></label>
+          <input id="msg" type="text" class="form-control" name="msg" placeholder="(xx)9xxxx-xxxx - (xx)xxxx-xxxx">
+        </div>
+        <br>
+          <button class="cor-btn tamanho-btn" type="button" class="btn btn-success btn-lg"><font style="vertical-align: inherit;"><b> Finalizar cadastro </b></font></button>
+      </form>
+    </fieldset>
+      <br>
+    
+</body>
+</html>
