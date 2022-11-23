@@ -1,0 +1,57 @@
+body{
+    background-image: url(../papel_de_parede/Clínica_Você_Dev+.png);
+    background-size: 100%;
+    background-repeat:auto;
+    color:white;
+    font-size: 20px;
+  }
+
+h1{
+    text-align: center;
+}
+
+input{
+    color: black;
+}
+
+select{
+    color: black;
+}
+
+form{
+    text-align: center;
+}
+
+fieldset {
+    background-color: rgb(245, 230, 244);
+    border: 1px solid black;
+    width: 450px;
+    margin:auto;
+}
+
+.cor-btn{
+    background-color: rgb(225, 222, 226);
+    color: black;
+    width: 10em;
+}
+.tamanho-btn{
+    font-size: 25px;
+    width: 6em;
+    height: 40px;
+}
+
+.edicao-paragrafo{
+    color: black;
+    font-size: 1.5em;
+}
+
+.tamanho-input{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.titulo-login{
+    color: black;
+    font-size: 20px;
+}

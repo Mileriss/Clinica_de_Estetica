@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="/CSS/estilo_consulta.css">
+
+
+  <title>Consultar Agendamento</title>
+</head>
+<body>
+
+  <a href="../Menu.html"><b>Menu</b></a>
+
+      <h1>Consultar Agendamento</h1>
+      
+      <form>
+        <div>
+          <p class=".edicao-paragrafo">Digite o CPF do cliente que deseja visualizar o agendamento</p>
+          <label for="html"><b>CPF:</b></label>
+          <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+          <button class="cor-btn" type="submit"><b>Pesquisar</b></button>
+        </div>
+        <br>
+    </form>
+
+    <br><br>
+
+        <table>
+            <tr>
+                <th>ID:</th>
+                <th>Cliente:</th>
+                <th>CPF:</th>
+                <th>Serviços:</th>
+                <th>Valor R$:</th>
+                <th>Data:</th>
+                <th>Horário:</th>
+                <th>Profissional:</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Rafael</td>
+                <td>123.456.789-10</td>
+                <td>Cabelo, Pedicure</td>
+                <td>350</td>
+                <td>10/01/2022</td>
+                <td>10:00 - 11:00</td>
+                <td>Beltrana</td>
+              </tr>
+        </table>
+        </div>
+      </div>
+
+</body>
+</html>

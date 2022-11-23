@@ -1,0 +1,51 @@
+body{
+    background-image: url(../papel_de_parede/Clínica_Você_Dev+.png);
+    background-size: 100%;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th{
+    border: 2em solid black;
+    text-align: center;
+    padding: 8em;
+}
+
+h1, p{
+    text-align: center;
+}
+
+tr{
+    background-color: white;
+}
+
+form{
+    text-align: center;
+}
+
+fieldset {
+    background-color: rgb(245, 230, 244);
+    border: 1px solid black;
+    width: 600px;
+    margin:auto;
+}
+
+.edicao-paragrafo{
+    color: black;
+    font-size: 1.5em;
+}
+
+.cor-btn{
+    background-color: lightcoral;
+    color: black;
+    width: 10em;
+}
+.tamanho-btn{
+    font-size: 1em;
+    width: 10em;
+    height: 3em;
+}

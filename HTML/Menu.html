@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo_menu.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #bloco-texto{
+      font-size: 20px;
+    }
+  </style>
+    <title> Menu Principal </title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand active"  href="#">DEV+</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+
+              <!--PARTE DE CLIENTES-->
+              <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Clientes<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../HTML/Cliente/Cadastrar_Cliente.html">Cadastrar novo cliente</a></li>
+                <li><a href="../HTML/Cliente/Consultar_Cliente.html">Consultar clientes</a></li>
+                <li><a href="../HTML/Cliente/Alterar_Cliente.html">Editar cliente</a></li>
+                <li><a href="../HTML/Cliente/Deletar_Cliente.html">Deletar cliente</a></li>
+              </ul>
+
+              <!--PARTE DE SERVIÇOS-->
+              <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Serviços<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../HTML/Serviço/Cadastrar_Servico.html">Cadastrar novo serviço</a></li>
+                  <li><a href="../HTML/Serviço/Consultar_Servico.html">Consultar serviços</a></li>
+                  <li><a href="../HTML/Serviço/Alterar_Servico.html">Editar serviço</a></li>
+                  <li><a href="../HTML/Serviço/Deletar_Servico.html">Deletar serviço</a></li>
+                </ul>
+              
+              <!--PARTE DE PROFISSIONAIS-->
+              <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Profissionais<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../HTML/Profissional/Cadastrar_Profissional.html">Cadastrar nova profissional</a></li>
+                  <li><a href="../HTML/Profissional/Consultar_Profissional.html">Consultar profissionais</a></li>
+                  <li><a href="../HTML/Profissional/Alterar_Profissional.html">Editar profissional</a></li>
+                  <li><a href="../HTML/Profissional/Deletar_Profissional.html">Deletar profissional</a></li>
+                </ul>
+
+               <!--PARTE DE AGENDAMENTOS-->
+              <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Agendamento<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../HTML/Agendamentos/Criar_Agendamento.html">Novo agendamento</a></li>
+                  <li><a href="../HTML/Agendamentos/Consultar_Agendamento.html">Consultar agendamento</a></li>
+                </ul>
+
+              <!--PARTE DE RELATÓRIOS-->
+              <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Relatórios<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../HTML/Relatórios/Historico_consultas.html">Histórico de consultas</a></li>
+                  <li><a href="../HTML/Relatórios/Relatorio_Serviços.html">Relatório de serviços realizados</a></li>
+                  <li><a href="../HTML/Relatórios/Relatorio_Faturamento.html">Relatório de faturamento</a></li>
+                </ul>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="Logar.html"><span class="glyphicon glyphicon-log-in"></span> Logout </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="bloco-texto">
+        <h2>Bem vindo(a) ao sistema de controle da clínica Dev+!</h2>
+        <p>Através deste sistema será possível: 
+          <ol>
+            <li>Cadastrar, Consultar, Editar ou Deletar:
+              <ul>
+                <li><b>Clientes</b></li>
+                <li><b>Serviços</b></li>
+                <li><b>Profissionais</b></li>
+              </ul>
+            <li>Criar, Consultar e visualizar agendamentos</li>
+            <li>Visualizar o relatório de serviços e financeiro da empresa</li>
+          </ol>
+        </p>
+        <p>Este sistema foi criado para facilitar a <br> 
+          manipulação de informações da clínica e <br> 
+          organizar todos os dados de forma que vá <br> 
+          economizar o tempo da empresa e evitar o acumulo de dados desnecessários.
+        </p>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background-image: url(../papel_de_parede/Clínica_Você_Dev+.png);
+    background-size: 100%;
+    color:black;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th{
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+tr{
+    background-color: white;
+}
+
+
+.cor-btn{
+    background-color: lightcoral;
+    color: black;
+    width: 10em;
+}
+
+.edicao-paragrafo{
+    color: black;
+    font-size: 1.5em;
+}
